@@ -92,7 +92,10 @@ The common dataset are these ones:
 * **LipoP results**: will return genes of your selected sequence corresponding to putative lipoproteins according to LipoP method
 * **dbCAN results**: will return genes of your selected sequence matching carbohydrate active enzyme entries classified by dbCAN
 * **IntegronFinder results**: will return genes of your selected sequence being part of an integron predicted by IntegronFinder
-* **MacSyFinder results**: will return genes of your selected sequence being part of a macromolacular gne cluster predicted by MacSyFinder
+* **MacSyFinder results**: will return genes of your selected sequence being part of a macromolacular gene cluster predicted by MacSyFinder
+* **PanRGP results**: will return genes of your selected sequence being part of a Region of Genomic Plasticity predicted by 
+our `PanRGP tool <https://microscope.readthedocs.io/en/latest/content/compgenomics/panRGP.html>`_ 
+* **Patent results**: will return genes of your selected sequence matching against our Patent database.
 
 What are the Fields?
 --------------------
