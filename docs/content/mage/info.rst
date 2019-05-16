@@ -1376,3 +1376,19 @@ How to explore a Macromolecular System?
 --------------------------------------------------------
 
 The `MacSyFinder System visualization window <https://microscope.readthedocs.io/en/latest/content/compgenomics/macromolecular_systems.html>`_ can be accessed by clicking on any cluster number in the System Id field. This window allows you to access to a detailled description of a selected Macromolecular System.
+
+==========
+Patent
+==========
+
+
+What is Patent?
+-------------------------------------------------------
+
+The Patent method is the result of the alignment (Diamond) of pkgdb gene against a patent sequence (amino-acid) database. 
+The database primary data come from `EPO <https://www.epo.org/index.html>`_ (Europe), `USPTO <https://www.uspto.gov/>`_ (USA), `JPO <https://www.jpo.go.jp/e/>`_ (Japan) and `KIPO <http://eng.kipris.or.kr/enghome>`_ (South Korea). 
+Data from all 4 sources are cleaned with the removal of redundant sequences and sequences without interest with bacterial data.
+We also clustered patent sequence based on similarity (MMseq2) in order to explore the patent diversity.
+	
+How to read the results?
+-------------------------------------------------------
