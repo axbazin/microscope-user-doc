@@ -1416,6 +1416,8 @@ How to read the results?
 
 .. image:: img/patent_example.PNG
 
-The link on **Patent ID** redirect on google patent result for that id, feel free to try on the primary databases (listed above), you can also try `PATENTSCOPE https://patentscope.wipo.int/search/en/search.jsf`_.
-The **cluster id** link will open a pop-up window containing informations on all patent and sequence within the cluster.
-The **Sequence** link will allow you to extract the sequence in fasta format.
+The link on **Patent ID** redirect on google patent result for that id, feel free to try on the primary databases (listed above), you can also try `PATENTSCOPE <https://patentscope.wipo.int/search/en/search.jsf>`_.  
+
+The **cluster id** link will open a pop-up window containing informations on all patent and sequence within the cluster.  
+
+The **Sequence** link will allow you to extract the sequence in fasta format.  
