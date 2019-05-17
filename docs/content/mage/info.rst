@@ -1393,17 +1393,20 @@ We also clustered patent sequence based on similarity (MMseq2) in order to explo
 How to read the results?
 -------------------------------------------------------
 
-* **maxLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
-* **minLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
-* **ident%**: Percentage of identity between the studied protein and the patented protein
+* **Patent ID**: Id of the patent
+* **maxLrap**: See `Alignement results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **minLrap**: See `Alignement results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **ident%**: Percentage of identity between the studied protein and the patented sequence
 * **Eval**: E value of the BLAST result
-* **OrderQ**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
-* **OrderB**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
-* **cluster id**: Id number of patented protein cluster 
-* **sequence**: Sequence of patented protein 
+* **OrderQ**: See `Alignement results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **OrderB**: See `Alignement results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **cluster id**: Id number of patented sequence cluster 
+* **Sequence**: Sequence of the patented sequence 
+* **Description** Description of the patented sequence
+* **Organism** Origin of the patented sequence (the link redirect on NCBI taxonomy)
 * **Title**: Title of patent
 * **Owner**: Owner of patent
-* **Patent date**: Date of patent
+* **Patent date**: Date of the latest version of patent
 * **BeginQ**: Start of the alignment for the studied protein
 * **EndQ**: End of the alignment for the studied protein
 * **LengthQ**: Length of the studied protein
@@ -1412,3 +1415,7 @@ How to read the results?
 * **LengthB**: Length of the patented protein
 
 .. image:: img/patent_example.PNG
+
+The link on **Patent ID** redirect on google patent result for that id, feel free to try on the primary databases (listed above), you can also try `PATENTSCOPE https://patentscope.wipo.int/search/en/search.jsf`_.
+The **cluster id** link will open a pop-up window containing informations on all patent and sequence within the cluster.
+The **Sequence** link will allow you to extract the sequence in fasta format.
