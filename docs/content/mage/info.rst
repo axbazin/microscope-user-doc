@@ -1399,8 +1399,8 @@ How to read the results?
 * **Eval**: E value of the BLAST result
 * **OrderQ**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
 * **OrderB**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
-* **cluster id**: number of patented protein cluster 
-* **sequence**: sequence of patented protein 
+* **cluster id**: Id number of patented protein cluster 
+* **sequence**: Sequence of patented protein 
 * **Title**: Title of patent
 * **Owner**: Owner of patent
 * **Patent date**: Date of patent
