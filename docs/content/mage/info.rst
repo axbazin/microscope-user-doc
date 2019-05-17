@@ -1401,9 +1401,9 @@ How to read the results?
 * **OrderB**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
 * **cluster id**: number of patented protein cluster 
 * **sequence**: sequence of patented protein 
-* **Title**: title of patent
-* **Owner**: owner of patent
-* **Patent date**: date of patent
+* **Title**: Title of patent
+* **Owner**: Owner of patent
+* **Patent date**: Date of patent
 * **BeginQ**: Start of the alignment for the studied protein
 * **EndQ**: End of the alignment for the studied protein
 * **LengthQ**: Length of the studied protein
