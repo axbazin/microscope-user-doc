@@ -1392,3 +1392,23 @@ We also clustered patent sequence based on similarity (MMseq2) in order to explo
 	
 How to read the results?
 -------------------------------------------------------
+
+* **maxLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **minLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **ident%**: Percentage of identity between the studied protein and the patented protein
+* **Eval**: E value of the BLAST result
+* **OrderQ**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **OrderB**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **cluster id**: number of patented protein cluster 
+* **sequence**: sequence of patented protein 
+* **Title**: title of patent
+* **Owner**: owner of patent
+* **Patent date**: date of patent
+* **BeginQ**: Start of the alignment for the studied protein
+* **EndQ**: End of the alignment for the studied protein
+* **LengthQ**: Length of the studied protein
+* **BeginB**: Start of the alignment for the patented protein 
+* **EndB**: End of the alignment for the patented protein
+* **LengthB**: Length of the patented protein
+
+.. image:: img/patent_example.PNG
