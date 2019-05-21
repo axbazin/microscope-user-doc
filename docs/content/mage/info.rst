@@ -1387,8 +1387,8 @@ What is Patent?
 
 The Patent method is the result of the alignment (Diamond) of pkgdb gene against a patent sequence (amino-acid) database. 
 The database primary data come from `EPO <https://www.epo.org/index.html>`_ (Europe), `USPTO <https://www.uspto.gov/>`_ (USA), `JPO <https://www.jpo.go.jp/e/>`_ (Japan) and `KIPO <http://eng.kipris.or.kr/enghome>`_ (South Korea). 
-Data from all 4 sources are cleaned with the removal of redundant sequences and sequences without interest with bacterial data.
-We also clustered patent sequence based on similarity (MMseq2) in order to explore the patent diversity.
+Data from all 4 sources are cleaned with the removal of redundant sequences and sequences without interest with bacterial data.  
+We also clustered patent sequence based on similarity (MMseq2 with lrap> 0.8 and 80% identity) in order to explore the patent diversity.  
 	
 How to read the results?
 -------------------------------------------------------
