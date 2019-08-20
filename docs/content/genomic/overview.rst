@@ -12,10 +12,11 @@ This page provide multiple data about your organism:
 `Parks DH, Imelfort M, Skennerton CT, Hugenholtz P, Tyson GW. 2015. CheckM: assessing the quality of microbial genomes recovered from isolates, single cells, and metagenomes. Genome Research, 25: 1043–1055. <https://genome.cshlp.org/content/25/7/1043.short>`_ 
 
 * And some general statistical data about a replicon, such as: Length, GC%, Ribosomal RNAs, tRNAs types, Annotations Status, Average CDS length, Repeated regions, Average intergenic length , Protein coding density, Scaffolds/Contigs numbers, etc.
+The gene taken into account for patent result hit with minlrap>=0.8 and ident>=80%
 
 
 .. image:: img/overview1.PNG
 
 .. image:: img/overview2.PNG
 
-
+.. image:: img/overview3.PNG
