@@ -18,5 +18,3 @@ The gene taken into account for patent result hit with minlrap>=0.8 and ident>=8
 .. image:: img/overview1.PNG
 
 .. image:: img/overview2.PNG
-
-.. image:: img/overview3.PNG
